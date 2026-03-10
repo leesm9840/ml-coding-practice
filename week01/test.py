@@ -139,7 +139,14 @@ print(t1 + t2)
 
 t2 * 10
 
-dic = {'name'}
+dic = {'name':'Hong', 'phone':'01012345678', 'birth':'0814'}
+
+dic[1] = 'a'
+print(dic)
+
+dic['pet'] = 'dog'
+print(dic)
+
 
 
 
