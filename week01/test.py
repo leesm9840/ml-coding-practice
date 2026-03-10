@@ -312,6 +312,11 @@ print(sorted([3, 0, 2, 1]))
 print(sorted('Python'))
 
 
+import urllib.request
+urllib.request.Request('http://www.sunmoon.ac.kr')
+
+import pandas
+pandas.Da
 
 
 
