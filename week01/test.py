@@ -98,6 +98,10 @@ del a[-1]
 print(a)
 
 a.append(5)
+print(a)
+
+b.sort()
+print(a)
 
 
 
