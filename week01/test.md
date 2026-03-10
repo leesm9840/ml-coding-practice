@@ -10,4 +10,5 @@ print(7 % 3)
 print(a // b)
 print(7 // 3)
 
-print()
+s1 = 'Hello Python'
+print(s1)
