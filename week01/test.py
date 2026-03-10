@@ -267,9 +267,15 @@ print(chr(48))
 print(ord('a'))
 print(ord('0'))
 
+print(dir([1, 2, 3]))
+print(dir({'1':'a'}))
+print(dir(1))
 
+print(int('3'))
+print(str(3))
 
-
+print(tuple("Python"))
+print(tuple([1, 2, 3]))
 
 
 
