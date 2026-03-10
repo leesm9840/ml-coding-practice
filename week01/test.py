@@ -401,7 +401,7 @@ len('Python')
 print(sorted([3, 0, 2, 1]))
 print(sorted('Python'))
 
-#패키지, 모듈 사용
+# 패키지, 모듈 사용
 # Request('http://www.sunmoon.ac.kr')   #오류 발생
 
 import urllib.request
@@ -413,11 +413,14 @@ pandas.DataFrame()
 from datetime import datetime
 datetime.now()
 
+# 파일 객체 생성
 f = open('example.txt', 'w')
 print(f)
 
+# 파일 닫기
 f.close()
 
+# 파일 쓰기
 f = open('examlpe.txt', 'w')
 for i in range(1, 6):
     data = '%d번째 줄입니다. \n' %i
@@ -429,6 +432,7 @@ for i in range(6, 11):
     data = '%d번째 줄 추가입니다. \n' %i
     f.write(data)
 f.close()
+
 
 f = open('example.txt', 'r')
 
