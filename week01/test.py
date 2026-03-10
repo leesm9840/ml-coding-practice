@@ -148,6 +148,8 @@ dic['pet'] = 'dog'
 print(dic)
 
 del dic[1]
+print(dic)
+
 print(dic['phone'])
 print(dic['name'])
 
