@@ -332,22 +332,25 @@ print(abs(-3.5))
 print(all([1, 2, 3, 4]))
 print(all([4, -2, 0.0, 4]))
 
-#
+# 그룹 자료형의 변수 x의 원소 중 하나라도 참이면 True 반환
 print(any([1, 2, 3, 4]))
 print(any([4, -2, 0.0, 4]))
 
+# 아스키코드 값에 대한 문자 출력
 print(chr(97))
 print(chr(48))
 
+# 문자에 대한 아스키코드 값 출력
 print(ord('a'))
 print(ord('0'))
 
+# 객체 x가 가진 멤버 변수와 멤버 함수 보여주기
 print(dir([1, 2, 3]))
 print(dir({'1':'a'}))
 print(dir(1))
 
-print(int('3'))
-print(str(3))
+print(int('3'))             # x를 정수 형태로 반환
+print(str(3))               # x를 문자열 형태로 반환
 
 print(tuple("Python"))
 print(tuple([1, 2, 3]))
