@@ -217,7 +217,16 @@ if money >= 10:
 else:
     print('저금하자!')
 
-test_list
+test_list = ['one', 'two', 'three']
+for i in test_list:
+    x = i + '!'
+    print(x)
 
+number = 0
+for score in [90, 25, 67, 45, 93]:
+    number += 1
+
+    if score > 60:
+        print("%d번 학생은")
 
 
