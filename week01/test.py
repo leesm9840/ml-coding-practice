@@ -361,4 +361,6 @@ data = f.read()
 f.close()
 data
 
-with op
+with open('example.txt', 'w') as f:
+    f.write("Now is better than never.")
+    
