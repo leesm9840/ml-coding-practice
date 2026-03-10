@@ -109,6 +109,20 @@ print(a)
 
 print(a.index(9))
 
+a.insert(0, 99)
+print(a)
+
+a.remove(99)
+print(a)
+
+b = [1, 2, 3]
+print(b.pop())
+print(b)
+
+print(b.pop(0))
+print(b)
+
+
 
 
 
