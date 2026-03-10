@@ -122,7 +122,24 @@ print(b)
 print(b.pop(0))
 print(b)
 
+a = [2, 1, 0, 2, 3, 2, 4, 2]
+print(a.count(2))
 
+t1 = (1, )
+t2 = (1, 2, 3)
+t3 = 1, 2, 3
+t4 = (1, 2, (3, 4), ('Life', 'is'))
+
+print(t4[0])
+print(t4[3][-1])
+
+t4[0:3]
+
+print(t1 + t2)
+
+t2 * 10
+
+dic = {'name'}
 
 
 
