@@ -209,7 +209,15 @@ if money >= 1200 and money < 3500:
 print(1 in [1, 2, 3])
 print(x in [1, 2, 3])
 print(x not in [1, 2, 3])
-print('a' in ['a', 'b', 'c', ]'d')
+print('a' in ['a', 'b', 'c', 'd'])
+print('i' not in 'Python')
+
+if money >= 10:
+    pass
+else:
+    print('저금하자!')
+
+test_list
 
 
 
