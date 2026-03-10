@@ -1,12 +1,15 @@
 a = 3
 b = 4
 
+# Áö¼ö½Â
 print(a ** b)
 print(a ** 3)
 
+# ³ª¸ÓÁö ¿¬»ê
 print(a % b)
 print(7 % 3)
 
+# ³ª´°¼À ¸ò ±¸ÇÏ±â
 print(a // b)
 print(7 // 3)
 
@@ -363,4 +366,3 @@ data
 
 with open('example.txt', 'w') as f:
     f.write("Now is better than never.")
-    
