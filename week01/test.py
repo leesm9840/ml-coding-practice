@@ -237,7 +237,8 @@ while i < 5:
     print('*' * i)
 
 def sum1(a, b):
-    x = 0
-    for i in args:
+    x = a + b
+    return x
+
 
 
