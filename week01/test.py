@@ -48,3 +48,13 @@ print(a.index('y'))
 b= ","
 c= b.join('Abcd')
 print(c)
+
+print(a.upper())
+print(a.lower())
+
+d = "               py                  "
+print(d.lstrip())
+print(d.rstrip())
+print(d.strip())
+
+a = "Pi"
