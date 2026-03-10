@@ -203,7 +203,13 @@ print(x != y)
 print(x >= y)
 
 money = 1300
+if money >= 1200 and money < 3500:
+    print('버스를 탈 수 있습니다.')
 
+print(1 in [1, 2, 3])
+print(x in [1, 2, 3])
+print(x not in [1, 2, 3])
+print('a' in ['a', 'b', 'c', ]'d')
 
 
 
