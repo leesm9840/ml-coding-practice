@@ -57,4 +57,15 @@ print(d.lstrip())
 print(d.rstrip())
 print(d.strip())
 
-a = "Pi"
+a = "Pithon"
+
+a = "Python is difficult."
+print(a.replace("difficult", "funny"))
+print(a)
+
+print(a.split())
+
+b = "a, b, c, d"
+print(b)
+print(b.split(','))
+
