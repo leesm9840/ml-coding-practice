@@ -253,5 +253,26 @@ print(sum1(3, 5))
 print(sum2(1,2, 3, 4, 5))
 print(sum2(2, 3.5, 10))
 
+print(abs(-3.5))
+
+print(all([1, 2, 3, 4]))
+print(all([4, -2, 0.0, 4]))
+
+print(any([1, 2, 3, 4]))
+print(any([4, -2, 0.0, 4]))
+
+print(chr(97))
+print(chr(48))
+
+print(ord('a'))
+print(ord('0'))
+
+
+
+
+
+
+
+
 
 
