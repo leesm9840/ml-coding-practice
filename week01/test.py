@@ -78,29 +78,36 @@ a = "Python is difficult."
 print(a.replace("difficult", "funny"))
 print(a)
 
-#
+#문자열 나누기
 print(a.split())
 
 b = "a, b, c, d"
 print(b)
 print(b.split(','))
 
+#리스트 만들기
 a = [1, 2, 3]
 b = ['Life', 'is', 'too', 'short']
 c = [1, 2, 'Life', 'is']
 d = [1, 2, [3, 4], ['Life', 'is']]
 
+# 리스트 인덱싱
 print(d[0])
 print(d[2])
 print(d[3][-1])
 
+# 리스트 슬라이싱
 print(d[0:3])
 
+# 리스트 연결
 print(a+b)
 print(b[0] + " hi~ ^^;")
+# print(a[0] +" hi~ ^^;")   #오류 발생
 
+# 리스트 반복
 print(a * 3)
 
+# 리스트 수정
 a[2] = 99
 print(a)
 
@@ -110,15 +117,19 @@ print(a)
 a[-1] = ['d', 'e', 'f']
 print(a)
 
+# 삭제
 del a[-1]
 print(a)
 
+# 원소 추가
 a.append(5)
 print(a)
 
+# 원소 정렬
 b.sort()
 print(a)
 
+# 원소
 a = [3, 4, 1, 9]
 a.reverse()
 print(a)
