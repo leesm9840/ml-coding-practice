@@ -147,6 +147,16 @@ print(dic)
 dic['pet'] = 'dog'
 print(dic)
 
+del dic[1]
+print(dic['phone'])
+print(dic['name'])
+
+print(dic.keys())
+print(list(dic.keys()))
+
+for key in dic.keys():
+    print(dic[key])
+
 
 
 
