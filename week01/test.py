@@ -167,6 +167,11 @@ print(dic.items())
 for key, value in dic.items():
     print(key + ":" + value)
 
+dic.clear()
+print(dic)
+
+s1 = {1, 2, 'a', 5}
+s2 = set{[1, 2, 3, 4, 5, 6]}
 
 
 
