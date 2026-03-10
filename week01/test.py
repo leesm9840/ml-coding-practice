@@ -277,8 +277,22 @@ print(str(3))
 print(tuple("Python"))
 print(tuple([1, 2, 3]))
 
+print(type("abc"))
+print(type(a))
 
+sum = lambda a, b: a + b
 
+print(sum(3,5))
+
+print(max([1, 4, 2, 8, 6]))
+print(max("Python"))
+
+print(min([1, 4, 2, 8, 6]))
+print(min("Python"))
+
+print(pow(2, 4))
+
+c = input
 
 
 
