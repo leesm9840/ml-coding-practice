@@ -329,5 +329,10 @@ f.close()
 f = open('examlpe.txt', 'w')
 for i in range(1, 6):
     data = '%d번째 줄입니다. \n' %i
-    f.write()
+    f.write(data)
+f.close()
 
+f = open('example.txt', 'w')
+for i in range(6, 11):
+    data = '%d번째 줄 추가입니다. \n' %i
+    w
