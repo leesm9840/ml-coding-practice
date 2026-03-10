@@ -316,7 +316,12 @@ import urllib.request
 urllib.request.Request('http://www.sunmoon.ac.kr')
 
 import pandas
-pandas.Da
+pandas.DataFrame()
+
+from datetime import datetime
+datetime.now()
+
+f = open('example.txt')
 
 
 
