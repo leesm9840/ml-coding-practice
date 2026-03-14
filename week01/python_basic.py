@@ -69,16 +69,16 @@ print(d.lstrip())
 print(d.rstrip())
 print(d.strip())
 
-# 문자?�� ?��?�� (불�???��)
+# 문자열 바꾸기
 a = "Python"
-# a[1] = 'y'    #?���? 발생
+# a[1] = 'y'    # 오류 발생
 
-# 문자?�� 바꾸�?
+# 문자열 바꾸기
 a = "Python is difficult."
 print(a.replace("difficult", "funny"))
 print(a)
 
-# 문자?�� ?��?���?
+# 문자열 나누기
 print(a.split())
 
 b = "a, b, c, d"
