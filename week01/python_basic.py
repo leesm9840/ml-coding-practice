@@ -48,22 +48,22 @@ print(a[7:-11])
 a = "Python"
 print(a.count('p'))
 
-# 문자 ?���? ?��?��
+# 문자 위치 확인
 print(a.find('y'))
 print(a.find('p'))
 print(a.index('y'))
-# print(a.index('p')) # ?���? 발생
+# print(a.index('p')) # 오류 발생
 
-# 문자 ?��?��
+# 문자 삽입
 b = ","
 c = b.join('Abcd')
 print(c)
 
-# ????��문자 �??��
+# 대소문자 변환
 print(a.upper())
 print(a.lower())
 
-# 공백 ?���?
+# 공백 제거
 d = "           py          "
 print(d.lstrip())
 print(d.rstrip())
