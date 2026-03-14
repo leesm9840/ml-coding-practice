@@ -197,18 +197,18 @@ print(dic)
 print(dic['phone'])
 print(dic['name'])
 
-# key?�� 리스?�� 만들�?
+# key의 리스트 만들기
 print(dic.keys())
 print(list(dic.keys()))
 
 for key in dic.keys():
     print(dic[key])
 
-# value?�� 리스?�� 만들�?
+# value의 리스트 만들기
 print(dic.values())
 print(list(dic.values()))
 
-# key, value ?�� 구하�?
+# key, value 쌍 구하기
 print(dic.items())
 
 for key, value in dic.items():
