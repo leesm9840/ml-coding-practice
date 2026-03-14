@@ -22,3 +22,5 @@ print(s3)
 
 head = "Python"
 tail = " is fun"
+print(head + tail)
+# 문자열 곱하기
