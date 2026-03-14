@@ -348,27 +348,27 @@ print(dir([1, 2, 3]))
 print(dir({'1':'a'}))
 print(dir(1))
 
-print(int('3'))         # x�? ?��?�� ?��?���? 반환
-print(str(3))           # x�? 문자?�� ?��?���? 반환
+print(int('3'))         # x를 정수 형태로 반환
+print(str(3))           # x를 문자열 형태로 반환
 
-# x�? 리스?���? 반환
+# x를 리스트로 반환
 print(list("Python"))
 print((1, 2, 3))
 
-# x�? ?��?���? 반환
+# x를 튜플로 반환
 print(tuple("Python"))
 print(tuple([1, 2, 3]))
 
-# x�? ?��료형?�� 반환
+# x의 자료형을 반환
 print(type("abc"))
 print(type(a))
 
-# 간단?�� ?��?��?�� ?��?�� ?��?��
+# 간단한 삽입형 함수 생성
 sum = lambda a, b: a + b
 
 print(sum(3, 5))
 
-# 최�??, 최소�? 반환
+# 최대, 최소값 반환
 print(max([1, 4, 2, 8, 6]))
 print(max("Python"))
 
