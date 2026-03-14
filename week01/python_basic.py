@@ -97,6 +97,9 @@ print(d[2])
 print(d[3][-1])
 
 # 리스트 슬라이싱
+print(d[0:3])
+
+# 리스트 슬라이싱
 print(a + b)
 print(b[0] + " hi~ ^^;")
 # print(a[0] + " hi~ ^^;")  # 오류 발생
