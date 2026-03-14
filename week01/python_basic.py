@@ -421,4 +421,4 @@ print(f)
 f.close()
 
 # 피일 쓰기
-f = open('example')
+f = open('example.txt', 'w')
