@@ -395,7 +395,7 @@ print(list(range(5, 10 ,2)))
 for i in range(5, 20, 3):
     print(i)
 
-# ?��?���? s?�� 길이�? 반환
+# 입력값 s의 길이를 반환
 len('Python')
 
 print(sorted([3, 0, 2, 1]))
