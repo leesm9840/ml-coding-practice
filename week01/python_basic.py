@@ -434,7 +434,7 @@ for i in range(6, 11):
     f.write(data)
 f.close()
 
-# ?��?�� 모드 'r' - readline()
+# 파일 모드 'r' - readline()
 f = open('example.txt', 'r')
 
 
@@ -445,7 +445,7 @@ while True:
 
 f.close()
 
-# ?��?�� 모드 'r' - readline()
+# 파일 모드 'r' - readline()
 f = open('example.txt', 'r')
 lines = f.readlines()
 print(lines)
