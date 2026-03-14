@@ -258,6 +258,10 @@ print(s2)
 x = 3
 y = 2
 print(x == y)
+print(x != y)
+print(x >= y)
+
+# 조건의 연결
 
 
 
