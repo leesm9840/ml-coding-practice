@@ -455,13 +455,13 @@ for line in lines:
 
 f.close()
 
-# ?��?�� 모드 'r' - read()
+# 파일 모드 'r' - read()
 f = open('example.txt', 'r')
 data = f.read()
 f.close()
 data
 
-# with open() as ?��?�� 객체
+# with open() as 파일 객체
 with open('example.txt', "w") as f:
     f.write("Now is better than never.")
-# data = f.read()       # ?���? 발생
+# data = f.read()       # 오류 발생
