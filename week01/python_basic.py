@@ -210,3 +210,6 @@ print(list(dic.values()))
 
 # key, value ½Ö ±¸ÇÏ±â
 print(dic.items())
+
+for key, value in dic.items():
+    
