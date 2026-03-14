@@ -309,5 +309,5 @@ def sum1(a, b):
     return x
 
 def sum2(*args):
-    
+    x = 0 
 
