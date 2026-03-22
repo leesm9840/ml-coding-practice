@@ -70,4 +70,5 @@ data = {
     'likes': [25, 30, 10, 45, 20, 35, 5, 28]
     'is_spam': [False, False, True, False, False, True, False, False],
     
+
 }
