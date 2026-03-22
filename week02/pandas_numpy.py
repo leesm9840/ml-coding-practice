@@ -81,3 +81,6 @@ condition = (
     (~df['is_spam']) &                    # 스팸 댓글이 아니어야 함
     (df['has_image'])                     # 이미지가 포함된 댓글이어야 함
 )
+
+# 조건을 만족하는 행들 필터링
+winner_df = df(condition)
