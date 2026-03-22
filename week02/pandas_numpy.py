@@ -128,5 +128,9 @@ print(df.head())
 result = df[df['age'] >= 30][['name', 'salary']]
 print(result)
 
-# 抗力 单捞贸 积己
-data = {}
+# 抗力 单捞磐 积己
+data = {
+    'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+    'math': [88, 92, 85, 95, 90],
+    'science': []
+}
