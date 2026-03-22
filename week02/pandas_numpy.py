@@ -171,11 +171,11 @@ print(np.array([1,2,3,4,5]))
 print(np.array(sample_df))
 
 sample_np = np.array(sample_df)
-print(pd.DataFrame(sample_np))      # �÷����� 0, 1, 2, 3, 4
+print(pd.DataFrame(sample_np))      # 컬럼명이 0, 1, 2, 3, 4
 
-print(sample_df.columns)            # ���� �����ӿ�ũ���� �÷��� ��������
+print(sample_df.columns)            # 기존 프레임워크에서 컬럼명 가져오기
 
-print(pd.DataFrame(sample_np, columns = sample_df.columns))      # �� �����ӿ�ũ�� �÷��� ���̱�\
+print(pd.DataFrame(sample_np, columns = sample_df.columns))      # 
 
 print(sample_np)
 print(sample_np[0])
