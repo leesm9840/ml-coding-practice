@@ -137,4 +137,6 @@ data = {
 }
 
 # Dataframe »ý¼º
-df = 
+df = pd.DataFrame(data)
+print(df.head())
+
