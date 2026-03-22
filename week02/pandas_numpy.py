@@ -115,5 +115,6 @@ print(iris['class'].value_counts())
 
 # 抗力 单捞磐 积己
 data = {
-    
+    'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+    'age': [25, 30, 35, 28, 40],
 }
