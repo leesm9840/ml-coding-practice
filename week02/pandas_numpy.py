@@ -1,3 +1,3 @@
 import pandas as pd
 
-file_url = 'http://media.githubusercontent.com'
+file_url = 'http://media.githubusercontent.com/media/musthave-ML10/data_source/main/sample.csv'
