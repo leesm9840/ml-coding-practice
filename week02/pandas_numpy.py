@@ -113,22 +113,22 @@ print(iris['class'].unique())
 print(iris['class'].nunique())
 print(iris['class'].value_counts())
 
-# ���� ������ ����
+# 예제 데이터 생성
 data = {
     'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
     'age': [25, 30, 35, 28, 40],
     'salary': [70000.00, 80000.00, 90000.00, 60000.00, 95000.00]
 }
 
-# Dataframe ����
+# Dataframe 생성
 df = pd.DataFrame(data)
 print(df.head())
 
-# ���̰� 30 �̻��� ������ �̸��� �޿� ��ȯ
+# 나이가 30 이상인 직원의 이름과 급여 반환
 result = df[df['age'] >= 30][['name', 'salary']]
 print(result)
 
-# ���� ������ ����
+# 예제 데이터 생성
 data = {
     'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
     'math': [88, 92, 85, 95, 90],
@@ -136,19 +136,19 @@ data = {
     'english': [90, 87, 85, 88, 92]
 }
 
-# Dataframe ����
+# Dataframe 생성
 df = pd.DataFrame(data)
 print(df.head())
 
-# Dataframe ����
+# 개인별 과목 점수의 평균값 계산 (axis=1)
 df = pd.DataFrame(data)
 print(df.head())
 
-# �̸��� ��հ����� �����ϴ� ���ο� ������������ ����
+# 이름과 평균값만을 포함하는 새로운 데이터프레임 생성
 average_df = df[['name', 'average']]
 print(average_df)
 
-# 2.2 ������
+# 2.2 넘파이
 import numpy as np
 
 print(np.array([1,2,3]))
