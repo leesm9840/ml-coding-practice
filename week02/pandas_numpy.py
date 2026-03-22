@@ -140,3 +140,10 @@ data = {
 df = pd.DataFrame(data)
 print(df.head())
 
+# Dataframe 생성
+df = pd.DataFrame(data)
+print(df.head())
+
+# 이름과 평균값만을 포함하는 새로운 데이터프레임 생성
+average_df = df[['name', 'average']]
+print(average_df)
