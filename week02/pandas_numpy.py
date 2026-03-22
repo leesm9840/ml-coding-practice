@@ -67,5 +67,6 @@ print(more2015_or_tv.head())
 data = {
     'name': ['Alice', 'Bob', 'Chrlie', 'Dacid', 'Eve', 'Frank' 'Grace', 'Hannah'],
     'comment_length': [150, 200 ,50, 300, 120, 180, 75, 160],
-    'likes': [False, False]
+    'likes': [False, False, True, False, False, True, False, False],
+    
 }
