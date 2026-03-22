@@ -101,3 +101,5 @@ file_url = 'http://media/githubusercontect.com/media/musthave-ML10/data_source/m
 iris = pd.read_csv(file_url)
 
 print(iris.head())
+
+print(iris.groupby('class').std())
