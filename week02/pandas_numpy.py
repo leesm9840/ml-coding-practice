@@ -216,4 +216,12 @@ print(np.arange(8).reshape(2, 4) + 10)
 a = np.arange(8).reshape(2, 4) ** 2
 print(a)
 
-print(a.sum())
+print(a.sum())     # 모든 요소의 합
+print(a.mean())
+print(a.mean(axis = 0))
+
+print(a.min())
+print(a.max())
+
+print(a.max(axis=1))
+print(a.cumsum)
