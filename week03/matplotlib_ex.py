@@ -107,4 +107,4 @@ print(survived_count)
 
 # 파이 차트 그리기
 plt.figure(figsize=(8, 8))
-plt.pis(survived_count, la)
+plt.pis(survived_count, labels=['Not Survived', 'Survived'], colors=)
