@@ -63,4 +63,8 @@ survived_count = titanic[titanic['Survived'] == 1]['Sex'].value_counts()
 print(survived_count)
 
 # 수평 막대 그래프 그리기
-bars = plt.barh(survived_count.index, survived_count, col)
+bars = plt.barh(survived_count.index, survived_count, color=['darkturquoise', 'salmon'])
+plt.title('Survived Counts by Gender on Titanic')
+plt.xlabel('Count')
+plt.ylabel('Gender')
+plt.legend(bars, ['Survived - Female', 'Sur'])
