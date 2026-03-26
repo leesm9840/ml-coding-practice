@@ -1,1 +1,1 @@
-# -*- coding: uf
+# -*- coding: utf-8 -*-
