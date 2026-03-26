@@ -59,4 +59,8 @@ plt.close()
 """### ** 수평 막대 그래프 : 성별에 따른 생존자 수 확인하기**"""
 
 # 성별에 따른 생존자의 수 계산
-survived_count = titanic[titanic['Survived'] == 2]
+survived_count = titanic[titanic['Survived'] == 1]['Sex'].value_counts()
+print(survived_count)
+
+# 수평 막대 그래프 그리기
+bars
