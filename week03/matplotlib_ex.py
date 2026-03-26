@@ -63,4 +63,4 @@ survived_count = titanic[titanic['Survived'] == 1]['Sex'].value_counts()
 print(survived_count)
 
 # 수평 막대 그래프 그리기
-bars
+bars = plt.barh(survived_count.index, survived_count, col)
