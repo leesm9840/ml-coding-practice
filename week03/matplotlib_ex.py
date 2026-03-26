@@ -38,3 +38,5 @@ plt.close()                         # 다음 Plot을 새로 그리기 위해 plt
 # 승선 항구에 따른 생존자의 수 계산
 survived_count = titanic[titanic['Survived'] == 1]['Embarked'].value_counts()
 print(survived_count)
+
+# 막대 그래프 그리기
