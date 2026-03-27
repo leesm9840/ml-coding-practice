@@ -225,8 +225,3 @@ plt.xlabel('Pclass')
 plt.ylabel('Age')
 
 # x축의 눈금 설정
-plt.title('Violin Plot of Age by Pclass')
-plt.xlabel('Pclass')
-plt.ylabel('Age')
-
-# x축의 눈금 설정
