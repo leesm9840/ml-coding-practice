@@ -301,3 +301,4 @@ plt.ylabel('Not Survived Count', color='indigo')
 plt.tick_params(axis='y', labelcolor='indigo')
 plt.legend(loc='upper right')
 
+# 두 번째 서브플롯 설정(막대 그래프)
