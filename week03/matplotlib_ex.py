@@ -207,7 +207,7 @@ plt.close()
 
 """### **바이올린 플롯 : 승객 등급에 따른 나이 분포 표시하기**"""
 
-# 결측치 처
+# 결측치 처리
 titanic['Age'] = titanic['Age'].fillna(titanic['Age'].mean())
 print(titanic.info())
 
