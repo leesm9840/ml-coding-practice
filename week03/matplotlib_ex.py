@@ -397,3 +397,7 @@ plt.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Tit
 plt.tight_layout()\
 plt.savefig('Figure16.png')
 plt.close()
+
+## **그래프 저장하기**
+
+# 히스토그램 그리기
