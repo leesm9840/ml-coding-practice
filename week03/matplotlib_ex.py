@@ -46,7 +46,7 @@ plt.title('Survived Counts by Embarked Port on Titanic')
 plt.xlabel('Embarked Port')
 plt.ylabel('Count')
 plt.xticks(survived_count.index, ['Southampton', 'Cherbourg', 'Queenstown'])
-plt.legend(['Survived'], loc='upper tight')
+plt.legend(['Survived'], loc='upper right')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 
 # 생존자 수 표시
