@@ -402,4 +402,6 @@ plt.close()
 
 # 히스토그램 그리기
 plt.hist(titanic['Age'], bins=20, color='skyblue', edgecolor='black')
-plt.
+plt.xlabel('Age')
+plt.ylabel('Count')
+plt.title
