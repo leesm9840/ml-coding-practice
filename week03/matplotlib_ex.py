@@ -53,7 +53,7 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 for i, value in enumerate(survived_count):
     plt.text(i, value + 1, str(value), ha='center', va='bottom')
 
-plt.savefig('Figurt02.png')
+plt.savefig('Figure02.png')
 plt.close()
 
 """### ** 수평 막대 그래프 : 성별에 따른 생존자 수 확인하기**"""
