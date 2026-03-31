@@ -77,4 +77,7 @@ outlire_pred = Isolation_forest.fit_predict(X)
 outlire_pred
 
 housing = housing.iloc[outlire_pred == 1]
-housing_labels = housing_labels.iloc[out]
+housing_labels = housing_labels.iloc[outlire_pred == 1]
+
+# 텍스트와 범주형 특성 다루기
+housing_cat = O
