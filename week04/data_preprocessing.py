@@ -20,16 +20,16 @@ for set_ in (strat_train_set, strat_test_set):
     set_.drop("income_cat", axis=1, inplace=True)
 
 """
-* ���� �Ʒ� ��Ʈ�� �����ϰ� Ÿ���� �и�
-* 'strat_train_set.drop()'�� ������ ���� ������ 'strat_train_set'�� ���纻�� ����
+* 원본 훈련 세트로 복원하고 타깃을 분리
+* 'strat_train_set.drop()'은 지정한 열을 제외한 'strat_train_set'의 복사본을 만듦
 * 'inplace=True'�� �������� ���� �� 'strat_train_set' ��ü�� �������� ����
 """
 
 housing = strat_train_set.drop("median_house_value", axis=1)
 housing_labels = strat_train_set["median_house_value"].copy()
 
-# ������ ����
-# null ���� �ִ� �� Ȯ���ϱ�
+# 데이터 정제
+# null 값이 있는 행 확인하기
 null_rows_idx = housing.isnull().any(axis=1)
 housing.loc[null_rows_idx].head()
 
