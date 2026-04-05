@@ -62,3 +62,11 @@ plt.savefig('./week04/Seabotn_Figure03.jpg')
 
 # **히스토그램과 커널 밀도 추정 그래프**
 # 히스토그램과 커널 밀도 추정 그래프 함께 그리기
+sns.histplot(tips['tip'], bins=30, kde=True, color='skyblue')
+
+plt.title('Histogram with KED for Tips')
+plt.savefig('./week04/Seaborn_Figure05.jpg')
+
+# **관계 그래프**
+# jointplot( ) 그리기
+sns.jointplot(x='size', y='tip', data=tips, kind='scatter')
