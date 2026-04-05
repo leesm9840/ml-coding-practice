@@ -43,10 +43,10 @@ housing_num.head()
 
 imputer.fit(housing_num)
 
-print(imputer.statistics_)           # imputer ��� ��
-print(housing_num.median().values)   # �������� ����� �߰���
+print(imputer.statistics_)           # imputer 결과 값
+print(housing_num.median().values)   # 수동으로 계산한 중간값
 
-# �Ʒ� ��Ʈ�� �������� imputer�� �н��� ������ ä���
+# 훈련 세트의 누락값을 imputer가 학습한 값으로 채우기
 X = imputer.transform(housing_num)
 
 imputer.feature_names_in_
@@ -55,7 +55,8 @@ housing_tr = pd.DataFrame(X, columns=housing_num.columns,
                           index=housing_num.index)
 housing_tr.loc[null_rows_idx].head()
 
-# �̻�ġ ����
+# 이상치 삭제
 from sklearn.ensemble import IsolationForest
 
 isolation_forest = IsolationForest(random_state=42)
+outlier_pred = isolation_forest.fit_predict(X)
