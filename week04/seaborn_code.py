@@ -39,6 +39,10 @@ ax2 = fig.add_subplot(1, 2, 2)
 # x축 변수, 데이터셋, axe 객체(1번째 그래프)
 sns.countplot(x='time', data=tips, ax=ax1)
 
+#
+#
+sns.countplot
+
 ax1.set_title('Frequency of Tips by Time')
 ax2.set_title('Frequency of Tips by Time and Day')
 plt.savefig('./week04/Seaborn_Figure02.jpg')
