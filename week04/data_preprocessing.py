@@ -43,3 +43,4 @@ housing_num.head()
 
 imputer.fit(housing_num)
 
+print(imputer.statistics_)           # imputer °á°ú °ª
