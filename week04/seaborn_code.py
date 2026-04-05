@@ -35,8 +35,8 @@ fig = plt.figure(figsize=(15, 5))
 ax1 = fig.add_subplot(1, 2 ,1)
 ax2 = fig.add_subplot(1, 2, 2)
 
-# �Ļ簡 �̷���� �ð��� �ľ�
-# x�� ����, �����ͼ�, axe ��ü(1��° �׸���)
+# 식사가 이루어진 시간대 파악
+# x축 변수, 데이터셋, axe 객체(1번째 그래프)
 sns.countplot(x='time', data=tips, ax=ax1)
 
 ax1.set_title('Frequency of Tips by Time')
