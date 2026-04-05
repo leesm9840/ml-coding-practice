@@ -37,3 +37,6 @@ ax2 = fig.add_subplot(1, 2, 2)
 
 # 식사가 이루어진 시간대 파악
 # x측 변수, 데이터셋, axe 객체(1번째 그리기)
+sns.countplot(x='time', data=tips, ax=ax1)
+
+ax1.set_title()
