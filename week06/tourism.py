@@ -21,7 +21,7 @@ def main():
   jsonResult, result, natName, dataEND = getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear)  #[CODE 3]
 
   #파일저장 : csv 파일
-  columns = ["�Ա��ڱ���", "�����ڵ�", "�Ա�����", "�Ա��� ��"]
+  columns = ["입국자국가", "국가코드", "입국연월", "입국자 수"]
   result_df = pd.DataFrame(result, columns = columns)
   result_df.to_csv('./%s_%s_%d_%s.csv' % (natName, ed_cd, nStartYear, dataEND), index = False, encoding = 'cp949')
 
@@ -36,7 +36,7 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
       yyyymm = "{0}{1:0>2}".format(str(year), str(month))
       jsonData = getTourismStatsItem(yyyymm, nat_cd, ed_cd)     #[CODE 2]
       if (jsonData['response']['header']['resultMsg'] == 'OK'):
-        #�����Ͱ� ���� ������ �׸��� ��� ----------------------------
+        #데이터가 없는 마지막 항목인 경우 ----------------------------
         if jsonData['response']['body']['items'] == '':
           dataEND = "{0}{1:0>2}".format(str(year), str(month-1))
           print("������ ����.... \n�����Ǵ� ��� �����ʹ� %s�� %s�������Դϴ�." % (str(year), str(month-1)))
