@@ -10,4 +10,5 @@ def main():
   jsonResult = []
   result = []
 
-    print("<<")
+    print("<< 국내 입국한 외국인의 통계를 수집한다. >>")
+  
