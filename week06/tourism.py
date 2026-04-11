@@ -39,9 +39,9 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
         #데이터가 없는 마지막 항목인 경우 ----------------------------
         if jsonData['response']['body']['items'] == '':
           dataEND = "{0}{1:0>2}".format(str(year), str(month-1))
-          print("������ ����.... \n�����Ǵ� ��� �����ʹ� %s�� %s�������Դϴ�." % (str(year), str(month-1)))
+          print("데이터 없음.... \n제공되는 통계 데이터는 %s년 %s월까지입니다." % (str(year), str(month-1)))
           break
-        #jsonData�� ����Ͽ� Ȯ��............................................
+        #jsonData를 출력하여 확인............................................
         print(json.dumps(jsonData, indent = 4, sort_keys = True, ensure_ascii = False))
 
         natName = jsonData['response']['body']['items']['item']['natKorNm']
@@ -59,7 +59,7 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
 
 def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
   service_url = "http://openapi.tour.go.kr/openapi/service/EdrcntTourismStatsService/getEdrcntTourismStatsList"
-  parameters = "?_type=json&serviceKey=" + ServiceKey       # ����Ű
+  parameters = "?_type=json&serviceKey=" + ServiceKey       # 인증키
   parameters += "&YM=" + yyyymm
   parameters += "&NAT_CD=" + nat_cd
   parameters += "&ED_CD=" + ed_cd
