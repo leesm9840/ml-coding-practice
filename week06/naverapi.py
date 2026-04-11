@@ -22,3 +22,5 @@ def main():
         for post in jsonResponse['items']:
             cnt += 1
             getPostData(post, jsonResult, cnt)                # [CODE 3]
+
+        start = jsonResponse['start'] + jsonResponse['display']
