@@ -12,5 +12,5 @@ def main():
 
   print("<< 국내 입국한 외국인의 통계 데이터를 수잡합니다. >>")
   nat_cd = input('국가 코드를 입력하세요(중국: 112 / 일본: 130 / 미국: 275) :')
-  nSartYear = int(input('�����͸� �� ����� �����ұ��? : '))
-  nEndYear
+  nSartYear = int(input('데이터를 몇 년부터 수집할까요? : '))
+  nEndYear = int(input('데이터를 몇 년까지 수집할까요? : '))
