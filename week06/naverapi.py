@@ -8,3 +8,7 @@ client_id = 'Client ID'
 client_secret = 'Client Secret'
 
 def main():
+
+    node = 'news'                                             # 크롤링할 대상
+    srcText = input('검색어를 입력하세요: ')
+
