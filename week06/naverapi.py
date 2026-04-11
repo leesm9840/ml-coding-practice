@@ -5,7 +5,7 @@ import json
 
 
 client_id = 'rK764xacV_I4Fp86R7xP ID'
-client_secret = 'Client Secret'
+client_secret = 'JZxY3hfYu5 Secret'
 
 def main():
 
