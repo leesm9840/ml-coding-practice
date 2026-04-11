@@ -9,8 +9,8 @@ ServiceKey = "자신의 Service Key"
 """### [CODE 0]"""
 
 def main():
-    jsonResult = []
-    result = []
+  jsonResult = []
+  result = []
 
   print("<< 국내 입국한 외국인의 통계 데이터를 수집합니다. >>")
   nat_cd = input('국가 코드를 입력하세요(중국: 112 / 일본: 130 / 미국: 275) :')
@@ -83,3 +83,4 @@ def getRequestUrl(url):  #[CODE 1]
       print("[%s] Url Request Success" % datetime.datetime.now())
       return response.read().decode('utf-8')
   except Exception as e:
+    print(e)
