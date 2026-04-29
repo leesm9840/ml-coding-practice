@@ -3,11 +3,11 @@ from sklearn.datasets import fetch_openml
 
 mnist = fetch_openml('mnist_784', as_frame=False)
 
-print(mnist.keys())  # data¿Í target¸¸ »ç¿ë
+print(mnist.keys())  # dataì™€ targetë§Œ ì‚¬ìš©
 
 X, y = mnist.data, mnist.target
 print(X)
-print(X.shape)       # 28 x 28 °³ÀÇ ÇÈ¼¿ Æ¯Â¡À» °¡Áø ÀÌ¹ÌÁö 70,000°³
+print(X.shape)       # 28 x 28 ï¿½ï¿½ï¿½ï¿½ ï¿½È¼ï¿½ Æ¯Â¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ 70,000ï¿½ï¿½
 print(y)
 print(y.shape)
 
@@ -22,8 +22,14 @@ some_digit = X[0]
 plot_digit = X[0]
 plt.show()
 
-print(y[0])         # »ùÇÃ µ¥ÀÌÅÍ ·¹ÀÌºí È®ÀÎ (=5)
+print(y[0])         # ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìºï¿½ È®ï¿½ï¿½ (=5)
 
-# 10x10 ±×¸² »ý¼º
+# 10x10 ï¿½×¸ï¿½ ï¿½ï¿½ï¿½ï¿½
 plt.figure(figsize=(9, 9))
 for idx, image_data in enumerate(X[:100]):
+    plt.subplot(10, 10, idx + 1)
+    plot_digit(image_data)
+plt.subplots_adjust(wspace=0, hspace=0)
+plt.show()
+
+#
