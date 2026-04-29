@@ -26,3 +26,4 @@ print(y[0])         # 샘플 데이터 레이블 확인 (=5)
 
 # 10x10 그림 생성
 plt.figure(figsize=(9, 9))
+for idx, image_data in enumerate(X[:100]):
