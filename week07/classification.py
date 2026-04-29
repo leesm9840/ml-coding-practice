@@ -94,3 +94,5 @@ roc_auc_score(y_train_5, y_scores)
 from sklearn.ensemble import RandomForestClassifier
 
 forest_clf = RandomForestClassifier(random_state=42)
+
+y_prob
