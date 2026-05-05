@@ -130,4 +130,6 @@ genres = netflix['listed_in'].str.split(', ', expand=True).stack()
 genres = netflix['listed_in'].str.split(', ',expand=True).stack().value_counts()
 genres
 
-plt.fi
+plt.figure(figsize=(12, 6))
+
+sns.barplot(x=genres.values, y=genres.index, hue=genres.index, palette='RdGy')
