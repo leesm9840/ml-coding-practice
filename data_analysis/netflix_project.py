@@ -19,3 +19,6 @@ netflix.head(3)
 # .info() : 열에 대한 요약 정보 확인
 netflix.info()
 
+# 넷플릭스 결측치 비율 확인하기
+for i in netflix.columns :
+    
