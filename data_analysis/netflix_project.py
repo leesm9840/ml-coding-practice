@@ -36,5 +36,6 @@ netflix['cast'] = netflix['cast'].replace(np.nan, 'No Data')
 
 # .dropna(axis = 0) : 결측치가 있는 행 전체 제거
 # 원본 객체를 수정하려면 inplace = True 옵션 추가
+# 원본 객체를 수정하려면 inplace = True 옵션 추가
+netflix.dropna(axis = 0, inplace=True)
 
-netflix.dropna
