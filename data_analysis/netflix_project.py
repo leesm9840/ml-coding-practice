@@ -143,7 +143,7 @@ plt.show()
 netflix[netflix['title'].str.contains('Sankofa', na=False, case=False)]
 
 # 출력할 최대 행 수를 None으로 설정해서 모두 출력
-plt.set_option('display.max_rows', None)
+pd.set_option('display.max_rows', None)
 
 # 쉼표로 country 열의 값을 파이썬 리스트로 만들기
 netflix['country'] = netflix['country'].str.split(', ')
@@ -201,7 +201,7 @@ from PIL import Image
 plt.figure(figsize=(15, 5))
 
 # wordcolud에서 작동할 수 있도록 데이터프레임을 list로 1차 변환시키고 str(문자열)로 2차 변환
-tsxt = str(list(netflix['description']))
+text = str(list(netflix['description']))
 
 # mask : 단어를 그릴 위치 설정, 흰색(#FFFFFF) 항목은 마스킹된 것으로 간주
 # 로고 이미지 열고 넘차이 배열로 변환
