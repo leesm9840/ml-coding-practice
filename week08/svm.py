@@ -47,3 +47,7 @@ rbf_kernel_svm_clf = make_pipeline(StandardScaler(),
                                    SVC(kernel="rbf", gamma=5, C=0.001))
 rbf_kernel_svm_clf.fit(X, y)
 
+# SVM È¸±Í
+
+from sklearn.svm import LinearSVR
+
