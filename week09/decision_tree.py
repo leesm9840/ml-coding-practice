@@ -40,3 +40,6 @@ tree_clf1.fit(X_moons, y_moons)
 tree_clf2.fit(X_moons, y_moons)
 
 X_moons_test, y_moons_test = make_moons(n_samples=1000, noise=0.2,
+                                        random_state=43)
+
+print(tree
