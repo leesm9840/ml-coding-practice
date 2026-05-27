@@ -72,4 +72,6 @@ from sklearn.decomposition import PCA
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-pac_pipeline
+pca_pipeline = make_pipeline(StandardScaler(), PCA())
+X_iris_rotated = pca_pipeline.fit_transform(X_iris)
+tree_clf_pca = DecisionTreeClassifier(max_depth=2, random_state=42)
