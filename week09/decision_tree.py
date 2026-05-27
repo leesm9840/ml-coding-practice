@@ -61,4 +61,8 @@ export_graphviz(
     tree_reg,
     out_file="regression_tree.dot",
     feature_names=["x1"],
-    
+   rounded=True,
+   filled=True
+)
+Source.from_file("regression_tree.dot")
+
