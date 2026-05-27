@@ -81,4 +81,8 @@ tree_clf_pca.fit(X_iris_rotated, y_iris)
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 
-cus
+custom_cmap = ListedColormap(["#fafab0", "#9898ff", "#a0faa0"])
+
+plt.figure(figsize=(8, 4))
+
+axes = [-2.2, 2.4, -0.6, 0.7]
