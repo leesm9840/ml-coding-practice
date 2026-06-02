@@ -1,4 +1,4 @@
 # -*- coging: utf-8 -*-
 import matplotlib.pyplot as plt
 
-plt.rc
+plt.rc('font', family='Malgun Gothic')  # 윈도우: 맑은 고딕
